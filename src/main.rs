@@ -40,8 +40,8 @@ fn main() {
     });
 
 
-    println!("Searching for {}", config.query);
-    println!("In file {}", config.file_path);
+    // println!("Searching for {}", config.query);
+    // println!("In file {}", config.file_path);
 
     if let Err(e) = run(config) {
         println!("Application error: {}", e);
